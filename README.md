@@ -17,7 +17,7 @@ Advanced text preprocessing:
     Lowercasing
     Tokenization
     Stopword removal
-    Porter Stemmer
+    Wordnet Lemmatization
     Feature extraction using TF-IDF Vectorization
 Multiple ML models implemented:
     Bernoulli Naive Bayes
@@ -34,7 +34,7 @@ Performance evaluation:
 ### Project Workflow
 1. Data Collection (SMS Dataset)
 2. Data Cleaning & Preprocessing
-3. Text Normalization (Porter Stemmer)
+3. Text Normalization (Wordnet Lemmatization)
 4. Feature Extraction (TF-IDF)
 5. Model Training
 6. Model Evaluation
@@ -51,11 +51,11 @@ Scikit-learn
 NLP (Natural Language Processing)
 
 ### Model Performance 
-Bernoulli Naive Bayes Model
-    Training Accuracy: 99.34%
-    Testing Accuracy: 99.03%
-    Precision: 98.48%
-    Recall: 94.2%
+Random Forest Classifier Model
+    Training Accuracy: 99.00%
+    Testing Accuracy: 94.92%
+    Precision: 95.65%
+    Recall: 98.96%
 
 ### Future Improvements
 Deploy as a web application using Flask
